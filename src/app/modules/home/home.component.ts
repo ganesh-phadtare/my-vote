@@ -10,6 +10,10 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
+  addMoreAnswer() {
+    console.log('Answer added!');
+  }
 }
